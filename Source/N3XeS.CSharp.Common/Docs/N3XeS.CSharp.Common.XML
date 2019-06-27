@@ -1,0 +1,211 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>N3XeS.CSharp.Common</name>
+    </assembly>
+    <members>
+        <member name="T:N3XeS.CSharp.Common.Extensions.TypeExtension">
+            <summary>
+            	A type related extension.
+            </summary>
+            <author>
+             <AuthorName>John Caruthers</AuthorName>
+             <CreationDate>Wednesday, September 18, 2013  (09/18/2013)</CreationDate>
+             <CreationTime>05:48:50 PM</CreationTime>
+            </author>
+            <history>
+             <Modification>
+              <ModifierName></ModifierName>
+              <ModificationDate></ModificationDate>
+              <ModificationTime></ModificationTime>
+              <ModificationDescription></ModificationDescription>
+             </Modification>
+            </history>
+        </member>
+        <member name="M:N3XeS.CSharp.Common.Extensions.TypeExtension.GetActualType``1(``0)">
+            <summary>
+            	Gets the actual type of the <paramref name="source"/> type.
+            </summary>
+            <typeparam name="T">The provided type of the actual type to get.</typeparam>
+            <param name="source">The <typeparamref name="T"/> to get the actual type of.</param>
+            <returns>The actual type of the <paramref name="source"/>.</returns>
+        </member>
+        <member name="T:N3XeS.CSharp.Common.Properties.Resources">
+            <summary>
+              A strongly-typed resource class, for looking up localized strings, etc.
+            </summary>
+        </member>
+        <member name="P:N3XeS.CSharp.Common.Properties.Resources.ResourceManager">
+            <summary>
+              Returns the cached ResourceManager instance used by this class.
+            </summary>
+        </member>
+        <member name="P:N3XeS.CSharp.Common.Properties.Resources.Culture">
+            <summary>
+              Overrides the current thread's CurrentUICulture property for all
+              resource lookups using this strongly typed resource class.
+            </summary>
+        </member>
+        <member name="P:N3XeS.CSharp.Common.Properties.Resources.StringValueMustBeNullAndEmpty">
+            <summary>
+              Looks up a localized string similar to The value must be null and empty.
+            </summary>
+        </member>
+        <member name="P:N3XeS.CSharp.Common.Properties.Resources.StringValueMustBeNullEmptyOrWhiteSpace">
+            <summary>
+              Looks up a localized string similar to The value must be null, empty, or white space.
+            </summary>
+        </member>
+        <member name="P:N3XeS.CSharp.Common.Properties.Resources.StringValueMustNotBeEmpty">
+            <summary>
+              Looks up a localized string similar to The value must not be empty.
+            </summary>
+        </member>
+        <member name="P:N3XeS.CSharp.Common.Properties.Resources.StringValueMustNotBeEmptyOrWhiteSpace">
+            <summary>
+              Looks up a localized string similar to The value must not be empty or white space.
+            </summary>
+        </member>
+        <member name="P:N3XeS.CSharp.Common.Properties.Resources.ValueMustBeDefault">
+            <summary>
+              Looks up a localized string similar to The value must be the default of T.
+            </summary>
+        </member>
+        <member name="P:N3XeS.CSharp.Common.Properties.Resources.ValueMustBeDefaultCharacter">
+            <summary>
+              Looks up a localized string similar to The value must be the default minimum Character value.
+            </summary>
+        </member>
+        <member name="P:N3XeS.CSharp.Common.Properties.Resources.ValueMustBeEmptyGuid">
+            <summary>
+              Looks up a localized string similar to The value must be an empty Globally Unique Identifier (Guid).
+            </summary>
+        </member>
+        <member name="P:N3XeS.CSharp.Common.Properties.Resources.ValueMustBeEven">
+            <summary>
+              Looks up a localized string similar to The value must be an even number.
+            </summary>
+        </member>
+        <member name="P:N3XeS.CSharp.Common.Properties.Resources.ValueMustBeEvenNotNull">
+            <summary>
+              Looks up a localized string similar to The value must be an even number and not null.
+            </summary>
+        </member>
+        <member name="P:N3XeS.CSharp.Common.Properties.Resources.ValueMustBeGreaterThan">
+            <summary>
+              Looks up a localized string similar to The value must be greater than.
+            </summary>
+        </member>
+        <member name="P:N3XeS.CSharp.Common.Properties.Resources.ValueMustBeGreaterThanOrEqual">
+            <summary>
+              Looks up a localized string similar to The value must be greater than or equal to.
+            </summary>
+        </member>
+        <member name="P:N3XeS.CSharp.Common.Properties.Resources.ValueMustBeLessThan">
+            <summary>
+              Looks up a localized string similar to The value must be less than.
+            </summary>
+        </member>
+        <member name="P:N3XeS.CSharp.Common.Properties.Resources.ValueMustBeLessThanOrEqual">
+            <summary>
+              Looks up a localized string similar to The value must be less than or equal to.
+            </summary>
+        </member>
+        <member name="P:N3XeS.CSharp.Common.Properties.Resources.ValueMustBeMinimumDateTime">
+            <summary>
+              Looks up a localized string similar to The value must be the minimum DateTime.
+            </summary>
+        </member>
+        <member name="P:N3XeS.CSharp.Common.Properties.Resources.ValueMustBeNegative">
+            <summary>
+              Looks up a localized string similar to The value must be negative.
+            </summary>
+        </member>
+        <member name="P:N3XeS.CSharp.Common.Properties.Resources.ValueMustBeNull">
+            <summary>
+              Looks up a localized string similar to The value must be null.
+            </summary>
+        </member>
+        <member name="P:N3XeS.CSharp.Common.Properties.Resources.ValueMustBeOdd">
+            <summary>
+              Looks up a localized string similar to The value must be an odd number.
+            </summary>
+        </member>
+        <member name="P:N3XeS.CSharp.Common.Properties.Resources.ValueMustBeOddNotNull">
+            <summary>
+              Looks up a localized string similar to The value must be an odd number and not null.
+            </summary>
+        </member>
+        <member name="P:N3XeS.CSharp.Common.Properties.Resources.ValueMustBePositive">
+            <summary>
+              Looks up a localized string similar to The value must be positive.
+            </summary>
+        </member>
+        <member name="P:N3XeS.CSharp.Common.Properties.Resources.ValueMustBeZero">
+            <summary>
+              Looks up a localized string similar to The value must be zero.
+            </summary>
+        </member>
+        <member name="P:N3XeS.CSharp.Common.Properties.Resources.ValueMustNotBeDefault">
+            <summary>
+              Looks up a localized string similar to The value must not be the default of T.
+            </summary>
+        </member>
+        <member name="P:N3XeS.CSharp.Common.Properties.Resources.ValueMustNotBeDefaultCharacter">
+            <summary>
+              Looks up a localized string similar to The value must not be the default minimum Character value.
+            </summary>
+        </member>
+        <member name="P:N3XeS.CSharp.Common.Properties.Resources.ValueMustNotBeEmptyGuid">
+            <summary>
+              Looks up a localized string similar to The value must not be an empty Globally Unique Identifier (Guid).
+            </summary>
+        </member>
+        <member name="P:N3XeS.CSharp.Common.Properties.Resources.ValueMustNotBeMinimumDateTime">
+            <summary>
+              Looks up a localized string similar to The value must not be the minimum DateTime.
+            </summary>
+        </member>
+        <member name="P:N3XeS.CSharp.Common.Properties.Resources.ValueMustNotBeNull">
+            <summary>
+              Looks up a localized string similar to The value must not be null.
+            </summary>
+        </member>
+        <member name="P:N3XeS.CSharp.Common.Properties.Resources.ValueMustNotBeZero">
+            <summary>
+              Looks up a localized string similar to The value must not be zero.
+            </summary>
+        </member>
+        <member name="P:N3XeS.CSharp.Common.Properties.Resources.ValueOutOfRange">
+            <summary>
+              Looks up a localized string similar to The value is out of range.
+            </summary>
+        </member>
+        <member name="T:N3XeS.CSharp.Common.Utilities.TypeUtility">
+            <summary>
+            	A type related utility.
+            </summary>
+            <author>
+             <AuthorName>John Caruthers</AuthorName>
+             <CreationDate>Wednesday, September 18, 2013  (09/18/2013)</CreationDate>
+             <CreationTime>05:48:50 PM</CreationTime>
+            </author>
+            <history>
+             <Modification>
+              <ModifierName></ModifierName>
+              <ModificationDate></ModificationDate>
+              <ModificationTime></ModificationTime>
+              <ModificationDescription></ModificationDescription>
+             </Modification>
+            </history>
+        </member>
+        <member name="M:N3XeS.CSharp.Common.Utilities.TypeUtility.GetActualType``1(``0)">
+            <summary>
+            	Gets the actual type of the <paramref name="source"/> type.
+            </summary>
+            <typeparam name="T">The provided type of the actual type to get.</typeparam>
+            <param name="source">The <typeparamref name="T"/> to get the actual type of.</param>
+            <returns>The actual type of the <paramref name="source"/>.</returns>
+        </member>
+    </members>
+</doc>

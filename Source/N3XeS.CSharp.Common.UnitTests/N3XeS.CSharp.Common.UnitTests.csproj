@@ -1,0 +1,245 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{E083CDF6-26DF-407B-8C38-D040B40115CF}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>N3XeS.CSharp.Common.UnitTests</RootNamespace>
+    <AssemblyName>N3XeS.CSharp.Common.UnitTests</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{3AC096D0-A1C2-E12C-1390-A8335801FDAB};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+    <ReferencePath>$(ProgramFiles)\Common Files\microsoft shared\VSTT\$(VisualStudioVersion)\UITestExtensionPackages</ReferencePath>
+    <IsCodedUITest>False</IsCodedUITest>
+    <TestProjectType>UnitTest</TestProjectType>
+    <CodeContractsEnableRuntimeChecking>True</CodeContractsEnableRuntimeChecking>
+    <CodeContractsRuntimeCheckingLevel>Full</CodeContractsRuntimeCheckingLevel>
+    <TargetFrameworkProfile />
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;CODE_ANALYSIS;NETFX_V2;NETFX_V3;NETFX_V35;NETFX_V4;NETFX_V451;NETFX_V452;NETFX_V46;NETFX_V461;NETFX_V462;NETFX_V47;NETFX_V471;NETFX_V472</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <RunCodeAnalysis>false</RunCodeAnalysis>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <DocumentationFile>
+    </DocumentationFile>
+    <CheckForOverflowUnderflow>true</CheckForOverflowUnderflow>
+    <GenerateSerializationAssemblies>Auto</GenerateSerializationAssemblies>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE;CODE_ANALYSIS;NETFX_V2;NETFX_V3;NETFX_V35;NETFX_V4;NETFX_V451;NETFX_V452;NETFX_V46;NETFX_V461;NETFX_V462;NETFX_V47;NETFX_V471;NETFX_V472</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <RunCodeAnalysis>false</RunCodeAnalysis>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <DocumentationFile>
+    </DocumentationFile>
+    <CheckForOverflowUnderflow>true</CheckForOverflowUnderflow>
+    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <BuildDevLocal Condition="'$(BuildDevLocal)' == ''">true</BuildDevLocal>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(BuildDevLocal)' == 'false' AND '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <CodeAnalysisRuleSet>$(SolutionDir)\Shared\N3XeS CSharp Managed Code - Development.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(BuildDevLocal)' == 'true' AND '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <CodeAnalysisRuleSet>$(SolutionDir)\Shared\N3XeS CSharp Managed Code - Development.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(BuildDevLocal)' == 'false' AND '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <CodeAnalysisRuleSet>$(SolutionDir)\Shared\N3XeS CSharp Managed Code - Production.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(BuildDevLocal)' == 'true' AND '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <CodeAnalysisRuleSet>$(SolutionDir)\Shared\N3XeS CSharp Managed Code - Production.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>true</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup>
+    <DelaySign>true</DelaySign>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.Pex.Framework">
+      <HintPath>..\..\..\..\..\..\..\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\Extensions\Microsoft\Pex\Microsoft.Pex.Framework.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="GlobalSuppressions.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\PexAssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+    <Compile Include="TypeExtensionTest.cs" />
+    <Compile Include="TypeExtensionTest.GetActualTypeTest.g.cs">
+      <DependentUpon>TypeExtensionTest.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TypeUtilityTest.cs" />
+    <Compile Include="TypeUtilityTest.GetActualTypeTest.g.cs">
+      <DependentUpon>TypeUtilityTest.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <Choose>
+    <When Condition=" '$(BuildDevLocal)'=='true' ">
+      <ItemGroup>
+        <AdditionalFiles Include="$(SolutionDir)\Shared\NuGet.Config">
+          <Link>NuGet.Config</Link>
+        </AdditionalFiles>
+        <AdditionalFiles Include="$(SolutionDir)\Shared\DotNetVersionSpecificCompileTimeContantSymbols.props">
+          <Link>DotNetVersionSpecificCompileTimeContantSymbols.props</Link>
+        </AdditionalFiles>
+        <AdditionalFiles Include="$(SolutionDir)\Shared\N3XeS CSharp Managed Code - Development.ruleset">
+          <Link>N3XeS CSharp Managed Code - Development.ruleset</Link>
+        </AdditionalFiles>
+        <AdditionalFiles Include="$(SolutionDir)\Shared\N3XeS CSharp Managed Code - Production.ruleset">
+          <Link>N3XeS CSharp Managed Code - Production.ruleset</Link>
+        </AdditionalFiles>
+        <AdditionalFiles Include="$(SolutionDir)\Shared\N3XeS.CSharp.Common Identity Private Key.snk">
+          <Link>N3XeS.CSharp.Common Identity Private Key.snk</Link>
+        </AdditionalFiles>
+        <AdditionalFiles Include="$(SolutionDir)\Shared\N3XeS.CSharp.Common Identity Public Key.snk">
+          <Link>N3XeS.CSharp.Common Identity Public Key.snk</Link>
+        </AdditionalFiles>
+        <AdditionalFiles Include="$(SolutionDir)\Shared\N3XeS.CSharp.Common Signature Private Key.snk">
+          <Link>N3XeS.CSharp.Common Signature Private Key.snk</Link>
+        </AdditionalFiles>
+        <AdditionalFiles Include="$(SolutionDir)\Shared\N3XeS.CSharp.Common Signature Public Key.snk">
+          <Link>N3XeS.CSharp.Common Signature Public Key.snk</Link>
+        </AdditionalFiles>
+        <CodeAnalysisDictionary Include="$(SolutionDir)\Shared\N3XeSCodeAnalysisDictionary.xml">
+          <Link>N3XeSCodeAnalysisDictionary.xml</Link>
+        </CodeAnalysisDictionary>
+      </ItemGroup>
+    </When>
+    <Otherwise>
+      <ItemGroup>
+        <AdditionalFiles Include="$(SolutionDir)\Shared\NuGet.Config">
+          <Link>NuGet.Config</Link>
+        </AdditionalFiles>
+        <AdditionalFiles Include="$(SolutionDir)\Shared\DotNetVersionSpecificCompileTimeContantSymbols.props">
+          <Link>DotNetVersionSpecificCompileTimeContantSymbols.props</Link>
+        </AdditionalFiles>
+        <AdditionalFiles Include="$(SolutionDir)\Shared\N3XeS CSharp Managed Code - Development.ruleset">
+          <Link>N3XeS CSharp Managed Code - Development.ruleset</Link>
+        </AdditionalFiles>
+        <AdditionalFiles Include="$(SolutionDir)\Shared\N3XeS CSharp Managed Code - Production.ruleset">
+          <Link>N3XeS CSharp Managed Code - Production.ruleset</Link>
+        </AdditionalFiles>
+        <AdditionalFiles Include="$(SolutionDir)\Shared\N3XeS.CSharp.Common Identity Private Key.snk">
+          <Link>N3XeS.CSharp.Common Identity Private Key.snk</Link>
+        </AdditionalFiles>
+        <AdditionalFiles Include="$(SolutionDir)\Shared\N3XeS.CSharp.Common Identity Public Key.snk">
+          <Link>N3XeS.CSharp.Common Identity Public Key.snk</Link>
+        </AdditionalFiles>
+        <AdditionalFiles Include="$(SolutionDir)\Shared\N3XeS.CSharp.Common Signature Private Key.snk">
+          <Link>N3XeS.CSharp.Common Signature Private Key.snk</Link>
+        </AdditionalFiles>
+        <AdditionalFiles Include="$(SolutionDir)\Shared\N3XeS.CSharp.Common Signature Public Key.snk">
+          <Link>N3XeS.CSharp.Common Signature Public Key.snk</Link>
+        </AdditionalFiles>
+        <CodeAnalysisDictionary Include="$(SolutionDir)\Shared\N3XeSCodeAnalysisDictionary.xml">
+          <Link>N3XeSCodeAnalysisDictionary.xml</Link>
+        </CodeAnalysisDictionary>
+      </ItemGroup>
+    </Otherwise>
+  </Choose>
+  <PropertyGroup Condition=" '$(BuildDevLocal)'=='true' ">
+    <AssemblyOriginatorKeyFile>$(SolutionDir)\Shared\N3XeS.CSharp.Common Identity Public Key.snk</AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(BuildDevLocal)'=='false' ">
+    <AssemblyOriginatorKeyFile>$(SolutionDir)\Shared\N3XeS.CSharp.Common Identity Public Key.snk</AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\N3XeS.CSharp.Common\N3XeS.CSharp.Common.csproj">
+      <Project>{5e50c228-b073-4f55-bb68-b22bf796f35c}</Project>
+      <Name>N3XeS.CSharp.Common</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="MSTest.TestAdapter">
+      <Version>1.4.0</Version>
+    </PackageReference>
+    <PackageReference Include="MSTest.TestFramework">
+      <Version>1.4.0</Version>
+    </PackageReference>
+  </ItemGroup>
+  <Target Name="CopyLinkedAdditionalFiles" BeforeTargets="Build">
+    <Copy Condition=" '$(BuildDevLocal)' == 'true' AND '%(AdditionalFiles.Link)' != ''" DestinationFolder="$(SolutionDir)\Shared" OverwriteReadOnlyFiles="true" SourceFiles="%(AdditionalFiles.Identity)" SkipUnchangedFiles="true" />
+  </Target>
+  <Target Name="CopyLinkedCodeAnalysisDictionary" BeforeTargets="Build">
+    <Copy Condition=" '$(BuildDevLocal)' == 'true' AND '%(CodeAnalysisDictionary.Link)' != ''" DestinationFolder="$(SolutionDir)\Shared" OverwriteReadOnlyFiles="true" SourceFiles="%(CodeAnalysisDictionary.Identity)" SkipUnchangedFiles="true" />
+  </Target>
+  <Import Project="$(SolutionDir)\Shared\DotNetVersionSpecificCompileTimeContantSymbols.props" Condition=" '$(BuildDevLocal)'=='false' " />
+  <Import Project="$(SolutionDir)\Shared\DotNetVersionSpecificCompileTimeContantSymbols.props" Condition=" '$(BuildDevLocal)'=='true' " />
+  <Choose>
+    <When Condition="('$(VisualStudioVersion)' == '10.0' or '$(VisualStudioVersion)' == '') and '$(TargetFrameworkVersion)' == 'v3.5'">
+      <ItemGroup>
+        <Reference Include="Microsoft.VisualStudio.QualityTools.UnitTestFramework, Version=10.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+      </ItemGroup>
+    </When>
+    <Otherwise />
+  </Choose>
+  <Choose>
+    <When Condition="'$(VisualStudioVersion)' == '10.0' And '$(IsCodedUITest)' == 'True'">
+      <ItemGroup>
+        <Reference Include="Microsoft.VisualStudio.QualityTools.CodedUITestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+          <Private>False</Private>
+        </Reference>
+        <Reference Include="Microsoft.VisualStudio.TestTools.UITest.Common, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+          <Private>False</Private>
+        </Reference>
+        <Reference Include="Microsoft.VisualStudio.TestTools.UITest.Extension, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+          <Private>False</Private>
+        </Reference>
+        <Reference Include="Microsoft.VisualStudio.TestTools.UITesting, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+          <Private>False</Private>
+        </Reference>
+      </ItemGroup>
+    </When>
+  </Choose>
+  <Import Project="$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets" Condition="Exists('$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets')" />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

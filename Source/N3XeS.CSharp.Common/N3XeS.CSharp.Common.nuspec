@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+	<metadata>
+		<authors>$author$</authors>
+		<copyright>$copyright$</copyright>
+		<description>$description$</description>
+		<dependencies>
+		</dependencies>
+		<id>$id$</id>
+		<language>en-US</language>
+		<license type="expression">LGPL-3.0-or-later</license>
+		<projectUrl>https://dev.azure.com/n3xes/Common/</projectUrl>
+		<title>$title$</title>
+		<version>$version$</version>
+	</metadata>
+</package>
