@@ -48,10 +48,11 @@ Included items must then not match any entries in the exclude list to remain inc
 						<!-- (Use "\." to delimit namespaces in C# or Visual Basic, "::" in C++.)  -->
 						<Functions>
 							<Exclude>
-								<Function>^Fabrikam\.UnitTest\..*</Function>		 
+								<Function>^Fabrikam\.UnitTest\..*</Function>
 								<Function>^std::.*</Function>
 								<Function>^ATL::.*</Function>
 								<Function>.*::__GetTestMethodInfo.*</Function>
+								<Function>.*\JetBrains.Annotations\..*</Function>
 								<Function>^Microsoft::VisualStudio::CppCodeCoverageFramework::.*</Function>
 								<Function>^Microsoft::VisualStudio::CppUnitTestFramework::.*</Function>
 							</Exclude>
