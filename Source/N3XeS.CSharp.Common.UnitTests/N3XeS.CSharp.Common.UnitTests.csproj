@@ -94,13 +94,13 @@
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
       <DependentUpon>Settings.settings</DependentUpon>
     </Compile>
-    <Compile Include="TypeExtensionTest.cs" />
-    <Compile Include="TypeExtensionTest.GetActualTypeTest.g.cs">
-      <DependentUpon>TypeExtensionTest.cs</DependentUpon>
+    <Compile Include="TypeExtensionTests.cs" />
+    <Compile Include="TypeExtensionTests.GetActualTypeTest1.g.cs">
+      <DependentUpon>TypeExtensionTests.cs</DependentUpon>
     </Compile>
-    <Compile Include="TypeUtilityTest.cs" />
-    <Compile Include="TypeUtilityTest.GetActualTypeTest.g.cs">
-      <DependentUpon>TypeUtilityTest.cs</DependentUpon>
+    <Compile Include="TypeUtilityTests.cs" />
+    <Compile Include="TypeUtilityTests.GetActualTypeTest1.g.cs">
+      <DependentUpon>TypeUtilityTests.cs</DependentUpon>
     </Compile>
   </ItemGroup>
   <Choose>
