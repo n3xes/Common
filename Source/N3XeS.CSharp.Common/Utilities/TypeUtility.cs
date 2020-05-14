@@ -1,7 +1,7 @@
 ﻿#region Header: Copyright © 2013, John Caruthers
 
 // --------------------------------------------------------------------------------------------------------------------
-//	<copyright file="TypeUtility.cs">
+//	<copyright company="John Caruthers" file="TypeUtility.cs">
 //		Copyright © 2013, John Caruthers
 //		All rights reserved.
 //
@@ -15,7 +15,7 @@
 //		FOR A PARTICULAR PURPOSE.SEE THE GNU GENERAL PUBLIC LICENSE FOR MORE DETAILS.
 //
 //		YOU SHOULD HAVE RECEIVED A COPY OF THE GNU GENERAL PUBLIC LICENSE ALONG
-//		WITH THIS PROGRAM.  IF NOT, SEE <https://www.gnu.org/licenses/>.
+//		WITH THIS PROGRAM.  IF NOT, SEE https://www.gnu.org/licenses/.
 //
 //	</copyright>
 ////-------------------------------------------------------------------------------------------------------------------
@@ -103,8 +103,7 @@ namespace N3XeS.CSharp.Common.Utilities
 		{
 			Type type = typeof(T);
 
-			if ((source == null) ||
-				(Nullable.GetUnderlyingType(type) != null))
+			if (Nullable.GetUnderlyingType(type) != null)
 			{
 				return type;
 			}
