@@ -1,30 +1,37 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <DirectedGraph DataVirtualized="True" Layout="Sugiyama" ZoomLevel="-1" xmlns="http://schemas.microsoft.com/vs/2009/dgml">
   <Nodes>
-    <Node Id="(@1 Namespace=N3XeS.CSharp.Common.Properties)" Category="CodeSchema_Namespace" Bounds="-19.8716666666667,125.48008309268,240.623333333333,25" DelayedChildNodesState="NotFetched" DelayedCrossGroupLinksState="Fetched" Group="Collapsed" Label="N3XeS‎.CSharp‎.Common‎.Properties" />
-    <Node Id="@2" Category="CodeSchema_Assembly" Bounds="-39.8716666666667,-145.48006690732,282.476666666667,315.96015" CodeSchemaProperty_StrongName="N3XeS.CSharp.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=233daa7ffabf6e62" DelayedChildNodesState="Fetched" DelayedCrossGroupLinksState="Fetched" FetchedChildrenCount="3" FilePath="$(5e50c228-b073-4f55-bb68-b22bf796f35c.OutputPath)" Group="Expanded" Label="N3XeS.CSharp.Common.dll" UseManualLocation="True" />
-    <Node Id="@3" Category="CodeSchema_Namespace" Bounds="-19.8716666666667,-105.381810465667,242.476666666667,25" DelayedChildNodesState="NotFetched" DelayedCrossGroupLinksState="Fetched" Group="Collapsed" Label="N3XeS‎.CSharp‎.Common‎.Extensions" />
-    <Node Id="@4" Category="CodeSchema_Namespace" Bounds="-11.7466666666667,-50.4800669073204,226.226666666667,145.96" DelayedChildNodesState="Fetched" DelayedCrossGroupLinksState="Fetched" FetchedChildrenCount="1" Group="Expanded" Label="N3XeS‎.CSharp‎.Common‎.Utilities" UseManualLocation="True" />
-    <Node Id="@5" Category="CodeSchema_Class" Bounds="25.12,-10.4800669073204,152.493333333333,85.96" CodeSchemaProperty_IsAbstract="True" CodeSchemaProperty_IsFinal="True" CodeSchemaProperty_IsPublic="True" DelayedChildNodesState="Fetched" DelayedCrossGroupLinksState="Fetched" FetchedChildrenCount="1" Group="Expanded" Label="TypeUtility" UseManualLocation="True" />
-    <Node Id="@6" Category="CodeSchema_Method" Bounds="45.104976,29.511988874452,112.493333333333,25.96" CodeSchemaProperty_IsGeneric="True" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsStatic="True" DelayedCrossGroupLinksState="Fetched" Label="GetActualType" />
-    <Node Id="Source{055E26BF-2617-425D-9416-6842A75900EB}" Category="CodeMap_SolutionFolder" Bounds="-59.8716666666667,-185.48006690732,322.476666666667,375.96015" Group="Expanded" Label="Source" />
+    <Node Id="(@1 Namespace=N3XeS.CSharp.Common.Properties Type=Resources)" Category="CodeSchema_Class" Bounds="-99.458104572083,201.895694991004,114.103333333333,25" CodeSchemaProperty_IsCompilerGenerated="True" CodeSchemaProperty_IsGeneratedCode="True" CodeSchemaProperty_IsPublic="True" DelayedChildNodesState="NotFetched" DelayedCrossGroupLinksState="Fetched" Group="Collapsed" Label="Resources" />
+    <Node Id="(@1 Namespace=N3XeS.CSharp.Common.Properties Type=Settings)" Category="CodeSchema_Class" Bounds="-99.458104572083,146.897454991004,103.64,25" CodeSchemaProperty_IsCompilerGenerated="True" CodeSchemaProperty_IsFinal="True" CodeSchemaProperty_IsGeneratedCode="True" CodeSchemaProperty_IsInternal="True" DelayedChildNodesState="NotFetched" DelayedCrossGroupLinksState="Fetched" Group="Collapsed" Label="Settings" />
+    <Node Id="@2" Category="CodeSchema_Assembly" Bounds="-182.716080252083,-163.103325028196,527.917531002421,429.9983800224" CodeSchemaProperty_StrongName="N3XeS.CSharp.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=233daa7ffabf6e62" DelayedChildNodesState="Fetched" DelayedCrossGroupLinksState="Fetched" FetchedChildrenCount="4" FilePath="$(5e50c228-b073-4f55-bb68-b22bf796f35c.OutputPath)" Group="Expanded" Label="N3XeS.CSharp.Common.dll" UseManualLocation="True" />
+    <Node Id="@3" Category="CodeSchema_Namespace" Bounds="107.903297112816,106.896874987804,170.586666666667,25" DelayedChildNodesState="NotFetched" DelayedCrossGroupLinksState="Fetched" Group="Collapsed" Label="JetBrains‎.Annotations" />
+    <Node Id="@4" Category="CodeSchema_Namespace" Bounds="82.7247840836707,-123.103325024996,242.476666666667,85.0002000000001" DelayedChildNodesState="Fetched" DelayedCrossGroupLinksState="Fetched" FetchedChildrenCount="1" Group="Expanded" Label="N3XeS‎.CSharp‎.Common‎.Extensions" UseManualLocation="True" />
+    <Node Id="@5" Category="CodeSchema_Namespace" Bounds="-162.716080252083,106.898734991004,240.623333333333,139.99632" DelayedChildNodesState="Fetched" DelayedCrossGroupLinksState="Fetched" FetchedChildrenCount="2" Group="Expanded" Label="N3XeS‎.CSharp‎.Common‎.Properties" UseManualLocation="True" />
+    <Node Id="@6" Category="CodeSchema_Namespace" Bounds="8.62185367728485,-8.10312502179623,226.226666666667,85.0002" DelayedChildNodesState="Fetched" DelayedCrossGroupLinksState="Fetched" FetchedChildrenCount="1" Group="Expanded" Label="N3XeS‎.CSharp‎.Common‎.Utilities" UseManualLocation="True" />
+    <Node Id="@7" Category="CodeSchema_Class" Bounds="135.816450750337,-83.0174179115638,136.293333333333,25" CodeSchemaProperty_IsAbstract="True" CodeSchemaProperty_IsFinal="True" CodeSchemaProperty_IsPublic="True" DelayedChildNodesState="NotFetched" DelayedCrossGroupLinksState="Fetched" Group="Collapsed" Label="TypeExtension" />
+    <Node Id="@8" Category="CodeSchema_Class" Bounds="63.4018536772848,31.8685058598092,116.666666666667,25" CodeSchemaProperty_IsAbstract="True" CodeSchemaProperty_IsFinal="True" CodeSchemaProperty_IsPublic="True" DelayedChildNodesState="NotFetched" DelayedCrossGroupLinksState="Fetched" Group="Collapsed" Label="TypeUtility" />
+    <Node Id="Source{055E26BF-2617-425D-9416-6842A75900EB}" Category="CodeMap_SolutionFolder" Bounds="-202.716080252083,-203.103325031396,567.917531002421,489.9983800288" Group="Expanded" Label="Source" />
   </Nodes>
   <Links>
-    <Link Source="@2" Target="(@1 Namespace=N3XeS.CSharp.Common.Properties)" Category="Contains" FetchingParent="@2" />
     <Link Source="@2" Target="@3" Category="Contains" FetchingParent="@2" />
     <Link Source="@2" Target="@4" Category="Contains" FetchingParent="@2" />
-    <Link Source="@3" Target="@6" Category="CodeSchema_Calls" IsSourceVirtualized="True" Weight="1" />
-    <Link Source="@4" Target="@5" Category="Contains" FetchingParent="@4" />
-    <Link Source="@5" Target="@6" Category="Contains" FetchingParent="@5" />
+    <Link Source="@2" Target="@5" Category="Contains" FetchingParent="@2" />
+    <Link Source="@2" Target="@6" Category="Contains" FetchingParent="@2" />
+    <Link Source="@4" Target="@7" Category="Contains" FetchingParent="@4" />
+    <Link Source="@5" Target="(@1 Namespace=N3XeS.CSharp.Common.Properties Type=Resources)" Category="Contains" FetchingParent="@5" />
+    <Link Source="@5" Target="(@1 Namespace=N3XeS.CSharp.Common.Properties Type=Settings)" Category="Contains" FetchingParent="@5" />
+    <Link Source="@6" Target="@8" Category="Contains" FetchingParent="@6" />
+    <Link Source="@7" Target="@3" Category="CodeSchema_AttributeUse" IsSourceVirtualized="True" IsTargetVirtualized="True" Weight="1" />
+    <Link Source="@7" Target="@8" Category="CodeSchema_Calls" IsSourceVirtualized="True" IsTargetVirtualized="True" Weight="1" />
+    <Link Source="@8" Target="@3" Category="CodeSchema_AttributeUse" IsSourceVirtualized="True" IsTargetVirtualized="True" Weight="1" />
     <Link Source="Source{055E26BF-2617-425D-9416-6842A75900EB}" Target="@2" Category="Contains" FetchingParent="Source{055E26BF-2617-425D-9416-6842A75900EB}" />
   </Links>
   <Categories>
     <Category Id="CodeMap_SolutionFolder" Label="Solution Folder" CanBeDataDriven="True" IsProviderRoot="False" NavigationActionLabel="Solution Folder" />
     <Category Id="CodeSchema_Assembly" Label="Assembly" BasedOn="File" CanBeDataDriven="True" DefaultAction="Microsoft.Contains" Icon="CodeSchema_Assembly" NavigationActionLabel="Assemblies" />
+    <Category Id="CodeSchema_AttributeUse" Label="Uses Attribute" CanBeDataDriven="True" CanLinkedNodesBeDataDriven="True" IncomingActionLabel="Used by" OutgoingActionLabel="Uses Attribute" />
     <Category Id="CodeSchema_Calls" Label="Calls" CanBeDataDriven="True" CanLinkedNodesBeDataDriven="True" IncomingActionLabel="Called By" OutgoingActionLabel="Calls" />
     <Category Id="CodeSchema_Class" Label="Class" BasedOn="CodeSchema_Type" CanBeDataDriven="True" DefaultAction="Node:Both:CodeSchema_Member" Icon="CodeSchema_Class" NavigationActionLabel="Classes" />
-    <Category Id="CodeSchema_Member" Label="Member" CanBeDataDriven="True" DefaultAction="Microsoft.Contains" Icon="CodeSchema_Field" NavigationActionLabel="Members" />
-    <Category Id="CodeSchema_Method" Label="Method" BasedOn="CodeSchema_Member" CanBeDataDriven="True" DefaultAction="Link:Forward:CodeSchema_Calls" Icon="CodeSchema_Method" NavigationActionLabel="Methods" />
     <Category Id="CodeSchema_Namespace" Label="Namespace" CanBeDataDriven="True" DefaultAction="Node:Both:CodeSchema_Type" Icon="CodeSchema_Namespace" NavigationActionLabel="Namespaces" />
     <Category Id="CodeSchema_Type" Label="Type" CanBeDataDriven="True" DefaultAction="Node:Both:CodeSchema_Member" Icon="CodeSchema_Class" NavigationActionLabel="Types" />
     <Category Id="Contains" Label="Contains" Description="Whether the source of the link contains the target object" CanBeDataDriven="False" CanLinkedNodesBeDataDriven="True" IncomingActionLabel="Contained By" IsContainment="True" OutgoingActionLabel="Contains" />
@@ -35,10 +42,11 @@
     <Property Id="CanBeDataDriven" Label="CanBeDataDriven" Description="CanBeDataDriven" DataType="System.Boolean" />
     <Property Id="CanLinkedNodesBeDataDriven" Label="CanLinkedNodesBeDataDriven" Description="CanLinkedNodesBeDataDriven" DataType="System.Boolean" />
     <Property Id="CodeSchemaProperty_IsAbstract" Label="Is Abstract" Description="Flag to indicate member is 'Abstract' does not provide a full implementation" DataType="System.Boolean" />
+    <Property Id="CodeSchemaProperty_IsCompilerGenerated" Label="Is Compiler Generated" Description="Flag indicating whether the code representing this node was compiler generated" DataType="System.Boolean" />
     <Property Id="CodeSchemaProperty_IsFinal" Label="Is Final" Description="Flag to indicate the member is 'Final' and cannot be derived from" DataType="System.Boolean" />
-    <Property Id="CodeSchemaProperty_IsGeneric" Label="Is Generic" Description="Flag to indicate the member is 'Generic'" DataType="System.Boolean" />
+    <Property Id="CodeSchemaProperty_IsGeneratedCode" Label="Is Generated Code" Description="Flag indicating whether the code representing this node was generated" DataType="System.Boolean" />
+    <Property Id="CodeSchemaProperty_IsInternal" Label="Is Internal" Description="Flag to indicate the method is 'Internal'" DataType="System.Boolean" />
     <Property Id="CodeSchemaProperty_IsPublic" Label="Is Public" Description="Flag to indicate the scope is Public" DataType="System.Boolean" />
-    <Property Id="CodeSchemaProperty_IsStatic" Label="Is Static" Description="Flag to indicate the member is a static member" DataType="System.Boolean" />
     <Property Id="CodeSchemaProperty_StrongName" Label="StrongName" Description="StrongName" DataType="System.String" />
     <Property Id="DataVirtualized" Label="Data Virtualized" Description="If true, the graph can contain nodes and links that represent data for virtualized nodes/links (i.e. not actually created in the graph)." DataType="System.Boolean" />
     <Property Id="DefaultAction" Label="DefaultAction" Description="DefaultAction" DataType="System.String" />
@@ -56,6 +64,7 @@
     <Property Id="IsEnabled" DataType="System.Boolean" />
     <Property Id="IsProviderRoot" Label="IsProviderRoot" Description="IsProviderRoot" DataType="System.Boolean" />
     <Property Id="IsSourceVirtualized" Label="Link Source Virtualized" Description="If true, the link source end contains data for virtualized nodes/links (i.e. not actually created in the graph)." DataType="System.Boolean" />
+    <Property Id="IsTargetVirtualized" Label="Link Target Virtualized" Description="If true, the link target end contains data for virtualized nodes/links (i.e. not actually created in the graph)." DataType="System.Boolean" />
     <Property Id="Label" Label="Label" Description="Displayable label of an Annotatable object" DataType="System.String" />
     <Property Id="Layout" DataType="System.String" />
     <Property Id="NavigationActionLabel" Label="NavigationActionLabel" Description="NavigationActionLabel" DataType="System.String" />
@@ -70,21 +79,18 @@
   </Properties>
   <QualifiedNames>
     <Name Id="Assembly" Label="Assembly" ValueType="Uri" />
-    <Name Id="GenericParameterCount" Label="Generic Parameter Count" ValueType="System.String" />
-    <Name Id="Member" Label="Member" ValueType="System.Object" />
-    <Name Id="Name" Label="Name" ValueType="System.String" />
     <Name Id="Namespace" Label="Namespace" ValueType="System.String" />
-    <Name Id="OverloadingParameters" Label="Parameter" ValueType="Microsoft.VisualStudio.GraphModel.GraphNodeIdCollection" Formatter="NameValueNoEscape" />
-    <Name Id="ParameterIdentifier" Label="Parameter Identifier" ValueType="System.String" />
     <Name Id="Type" Label="Type" ValueType="System.Object" />
   </QualifiedNames>
   <IdentifierAliases>
     <Alias n="1" Uri="Assembly=$(5e50c228-b073-4f55-bb68-b22bf796f35c.OutputPathUri)" />
     <Alias n="2" Id="(@1)" />
-    <Alias n="3" Id="(@1 Namespace=N3XeS.CSharp.Common.Extensions)" />
-    <Alias n="4" Id="(@1 Namespace=N3XeS.CSharp.Common.Utilities)" />
-    <Alias n="5" Id="(@1 Namespace=N3XeS.CSharp.Common.Utilities Type=TypeUtility)" />
-    <Alias n="6" Id="(@1 Namespace=N3XeS.CSharp.Common.Utilities Type=TypeUtility Member=(Name=GetActualType GenericParameterCount=1 OverloadingParameters=[(ParameterIdentifier=0)]))" />
+    <Alias n="3" Id="(@1 Namespace=JetBrains.Annotations)" />
+    <Alias n="4" Id="(@1 Namespace=N3XeS.CSharp.Common.Extensions)" />
+    <Alias n="5" Id="(@1 Namespace=N3XeS.CSharp.Common.Properties)" />
+    <Alias n="6" Id="(@1 Namespace=N3XeS.CSharp.Common.Utilities)" />
+    <Alias n="7" Id="(@1 Namespace=N3XeS.CSharp.Common.Extensions Type=TypeExtension)" />
+    <Alias n="8" Id="(@1 Namespace=N3XeS.CSharp.Common.Utilities Type=TypeUtility)" />
   </IdentifierAliases>
   <Styles>
     <Style TargetType="Node" GroupLabel="Results" ValueLabel="True">
@@ -304,7 +310,7 @@
     </Style>
   </Styles>
   <Paths>
-    <Path Id="5e50c228-b073-4f55-bb68-b22bf796f35c.OutputPath" Value="C:\Projects\N3XeS\Common\Source\N3XeS.CSharp.Common\bin\Debug\N3XeS.CSharp.Common.dll" />
-    <Path Id="5e50c228-b073-4f55-bb68-b22bf796f35c.OutputPathUri" Value="file:///C:/Projects/N3XeS/Common/Source/N3XeS.CSharp.Common/bin/Debug/N3XeS.CSharp.Common.dll" />
+    <Path Id="5e50c228-b073-4f55-bb68-b22bf796f35c.OutputPath" Value="C:\Projects\N3XeS\Common\Source\N3XeS.CSharp.Common\bin\Release\N3XeS.CSharp.Common.dll" />
+    <Path Id="5e50c228-b073-4f55-bb68-b22bf796f35c.OutputPathUri" Value="file:///C:/Projects/N3XeS/Common/Source/N3XeS.CSharp.Common/bin/Release/N3XeS.CSharp.Common.dll" />
   </Paths>
 </DirectedGraph>
