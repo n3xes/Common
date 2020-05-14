@@ -18,7 +18,7 @@
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
     <OutputPath>bin\Debug\</OutputPath>
-    <DefineConstants>TRACE;DEBUG;CODE_ANALYSIS;JETBRAINS_ANNOTATIONS;NETFX_V2;NETFX_V3;NETFX_V35;NETFX_V4;NETFX_V451;NETFX_V452;NETFX_V46;NETFX_V461;NETFX_V462;NETFX_V47;NETFX_V471;NETFX_V472;NETFX_V45;NETFX_V4;NETFX_V35;NETFX_V3;NETFX_V2</DefineConstants>
+    <DefineConstants>TRACE;DEBUG;CODE_ANALYSIS;NETFX_V2;NETFX_V3;NETFX_V35;NETFX_V4;NETFX_V451;NETFX_V452;NETFX_V46;NETFX_V461;NETFX_V462;NETFX_V47;NETFX_V471;NETFX_V472;NETFX_V45;NETFX_V4;NETFX_V35;NETFX_V3;NETFX_V2;NETFX_V45;NETFX_V4;NETFX_V35;NETFX_V3;NETFX_V2</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <RunCodeAnalysis>true</RunCodeAnalysis>
@@ -32,7 +32,7 @@
     <DebugType>pdbonly</DebugType>
     <Optimize>true</Optimize>
     <OutputPath>bin\Release\</OutputPath>
-    <DefineConstants>TRACE;CODE_ANALYSIS;CODE_ANALYSIS;NETFX_V2;NETFX_V3;NETFX_V35;NETFX_V4;NETFX_V451;NETFX_V452;NETFX_V46;NETFX_V461;NETFX_V462;NETFX_V47;NETFX_V471;NETFX_V472;NETFX_V45;NETFX_V4;NETFX_V35;NETFX_V3;NETFX_V2;NETFX_V45;NETFX_V4;NETFX_V35;NETFX_V3;NETFX_V2</DefineConstants>
+    <DefineConstants>TRACE;CODE_ANALYSIS;NETFX_V2;NETFX_V3;NETFX_V35;NETFX_V4;NETFX_V451;NETFX_V452;NETFX_V46;NETFX_V461;NETFX_V462;NETFX_V47;NETFX_V471;NETFX_V472;NETFX_V45;NETFX_V4;NETFX_V35;NETFX_V3;NETFX_V2;NETFX_V45;NETFX_V4;NETFX_V35;NETFX_V3;NETFX_V2;NETFX_V45;NETFX_V4;NETFX_V35;NETFX_V3;NETFX_V2</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <RunCodeAnalysis>true</RunCodeAnalysis>
@@ -67,6 +67,7 @@
     <Reference Include="System" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="JetBrainsAnnotations.cs" />
     <Compile Include="Extensions\TypeExtension.cs" />
     <Compile Include="GlobalSuppressions.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -153,7 +154,8 @@
     <AssemblyOriginatorKeyFile>$(SolutionDir)\Shared\N3XeS.CSharp.Common Identity Public Key.snk</AssemblyOriginatorKeyFile>
   </PropertyGroup>
   <ItemGroup>
-    <None Include="Docs\N3XeS.CSharp.Common Class Diagram.cd" />
+    <None Include="Docs\All Tests from N3XeS.CSharp.Common Source.testsession" />
+    <None Include="Docs\N3XeS.CSharp.Common.cd" />
     <None Include="Docs\DotCover\All Tests from N3XeS.CSharp.Common Source.dcvr" />
     <None Include="Docs\DotCover\All Tests from N3XeS.CSharp.Common Source.dcvr.settings" />
     <None Include="Docs\N3XeS.CSharp.Common CodeMap.dgml" />
@@ -195,11 +197,6 @@
   <ItemGroup>
     <Content Include="Docs\All Tests Results from N3XeS.CSharp.Common Source.htm" />
     <Content Include="Docs\N3XeS.CSharp.Common.XML" />
-  </ItemGroup>
-  <ItemGroup>
-    <PackageReference Include="JetBrains.Annotations">
-      <Version>2020.1.0</Version>
-    </PackageReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="CopyLinkedAdditionalFiles" BeforeTargets="Build">
