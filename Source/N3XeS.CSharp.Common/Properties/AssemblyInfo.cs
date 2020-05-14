@@ -1,7 +1,7 @@
 ﻿#region Header: Copyright © 2013, John Caruthers
 
 // --------------------------------------------------------------------------------------------------------------------
-//	<copyright file="AssemblyInfo.cs">
+//	<copyright company="John Caruthers" file="AssemblyInfo.cs">
 //		Copyright © 2013, John Caruthers
 //		All rights reserved.
 //
@@ -15,11 +15,10 @@
 //		FOR A PARTICULAR PURPOSE.SEE THE GNU GENERAL PUBLIC LICENSE FOR MORE DETAILS.
 //
 //		YOU SHOULD HAVE RECEIVED A COPY OF THE GNU GENERAL PUBLIC LICENSE ALONG
-//		WITH THIS PROGRAM.  IF NOT, SEE <https://www.gnu.org/licenses/>.
+//		WITH THIS PROGRAM.  IF NOT, SEE https://www.gnu.org/licenses/.
 //
 //	</copyright>
 ////-------------------------------------------------------------------------------------------------------------------
-
 
 #endregion
 
@@ -33,7 +32,6 @@ using System.Runtime.InteropServices;
 
 #endregion
 
-
 // System.Reflection
 
 // General Information about an assembly is controlled through the following 
@@ -45,6 +43,11 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyProduct("N3XeS.CSharp.Common")]
 [assembly: AssemblyCopyright("Copyright (c) 2013, John Caruthers")]
 [assembly: AssemblyTrademark("N3XeS is a registered trademark of, John Caruthers")]
+
+[assembly: AssemblyMetadata("ImplicitNullability.AppliesTo", "InputParameters, RefParameters, OutParametersAndResult, Fields, Properties")]
+[assembly: AssemblyMetadata("ImplicitNullability.Fields", "RestrictToReadonly, RestrictToReferenceTypes")]
+[assembly: AssemblyMetadata("ImplicitNullability.Properties", "RestrictToGetterOnly, RestrictToReferenceTypes")]
+[assembly: AssemblyMetadata("ImplicitNullability.GeneratedCode", "Exclude")]
 
 // Version information for an assembly consists of the following four values:
 //
@@ -89,9 +92,12 @@ using System.Runtime.InteropServices;
 // to COM components.  If you need to access a type in this assembly from 
 // COM, set the ComVisible attribute to true on that type.
 [assembly: ComVisible(false)]
+
 // The following Guid is for the ID of the typelib if this project is exposed to COM
 [assembly: Guid("5e50c228-b073-4f55-bb68-b22bf796f35c")]
 
 // System.Runtime.CompilerServices
 [assembly: InternalsVisibleTo("Microsoft.Pex, PublicKey=002400000480000094000000060200000024000052534131000400000100010007d1fa57c4aed9f0a32e84aa0faefd0de9e8fd6aec8f87fb03766c834c99921eb23be79ad9d5dcc1dd9ad236132102900b723cf980957fc4e177108fc607774f29e8320e92ea05ece4e821c0a5efe8f1645c4c0c93c1ab99285d622caa652c1dfad63d745d6f2de5f17e5eaf0fc4963d261c8a12436518206dc093344d5ad293")]
 [assembly: InternalsVisibleTo("N3XeS.CSharp.Common.UnitTests, PublicKey=0024000004800000940000000602000000240000525341310004000001000100b9ec66971fdfb5d18c699afa5f125d42a861d907cff8e9bd7603d4c93a5cf7f81a8a3d6b2cfc44082198386666cdc48f49acb6841b063cc9028c5669ae3a724ddff3e385a5273f21d0178d9cca1783be1b38aac3323c8532fb7583b93cf7d13a0f2b379f3af5cae8649d4397f692340bc98675698d54dfdb1f3d2499ee8e4fdf")]
+[assembly: InternalsVisibleTo("N3XeS.CSharp.Common.Explorables, PublicKey=0024000004800000940000000602000000240000525341310004000001000100b9ec66971fdfb5d18c699afa5f125d42a861d907cff8e9bd7603d4c93a5cf7f81a8a3d6b2cfc44082198386666cdc48f49acb6841b063cc9028c5669ae3a724ddff3e385a5273f21d0178d9cca1783be1b38aac3323c8532fb7583b93cf7d13a0f2b379f3af5cae8649d4397f692340bc98675698d54dfdb1f3d2499ee8e4fdf")]
+
