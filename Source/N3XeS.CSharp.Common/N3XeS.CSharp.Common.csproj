@@ -67,6 +67,7 @@
     <Reference Include="System" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Exceptions\ReadOnlyException.cs" />
     <Compile Include="JetBrainsAnnotations.cs" />
     <Compile Include="Extensions\TypeExtension.cs" />
     <Compile Include="GlobalSuppressions.cs" />
@@ -154,8 +155,8 @@
     <AssemblyOriginatorKeyFile>$(SolutionDir)\Shared\N3XeS.CSharp.Common Identity Public Key.snk</AssemblyOriginatorKeyFile>
   </PropertyGroup>
   <ItemGroup>
-    <None Include="Docs\All Tests from N3XeS.CSharp.Common Source.testsession" />
     <None Include="Docs\N3XeS.CSharp.Common.cd" />
+    <None Include="Docs\All Tests from N3XeS.CSharp.Common Source.testsession" />
     <None Include="Docs\DotCover\All Tests from N3XeS.CSharp.Common Source.dcvr" />
     <None Include="Docs\DotCover\All Tests from N3XeS.CSharp.Common Source.dcvr.settings" />
     <None Include="Docs\N3XeS.CSharp.Common CodeMap.dgml" />
@@ -180,7 +181,6 @@
     <Folder Include="EntityRepositories\Structures\" />
     <Folder Include="Enums\" />
     <Folder Include="EventArgs\" />
-    <Folder Include="Exceptions\" />
     <Folder Include="Handlers\" />
     <Folder Include="Helpers\" />
     <Folder Include="Interfaces\" />

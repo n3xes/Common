@@ -94,6 +94,16 @@
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
       <DependentUpon>Settings.settings</DependentUpon>
     </Compile>
+    <Compile Include="ReadOnlyExceptionTests.ConstructorTest.g.cs">
+      <DependentUpon>ReadOnlyExceptionTests.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ReadOnlyExceptionTests.ConstructorTest01.g.cs">
+      <DependentUpon>ReadOnlyExceptionTests.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ReadOnlyExceptionTests.ConstructorTest02.g.cs">
+      <DependentUpon>ReadOnlyExceptionTests.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ReadOnlyExceptionTests.cs" />
     <Compile Include="TypeExtensionTests.cs" />
     <Compile Include="TypeExtensionTests.GetActualTypeTest1.g.cs">
       <DependentUpon>TypeExtensionTests.cs</DependentUpon>
