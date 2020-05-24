@@ -101,7 +101,7 @@ namespace N3XeS.CSharp.Common.Extensions
 		/// <param name="source">The <typeparamref name="T"/> to get the actual type of.</param>
 		/// <returns>The actual type of the <paramref name="source"/>.</returns>
 		[CanBeNull]
-		public static Type GetActualType<T>(this T source)
+		public static Type GetActualType<T>([CanBeNull] this T source)
 		{
 			return TypeUtility.GetActualType(source);
 		}

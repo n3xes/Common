@@ -99,8 +99,13 @@ namespace N3XeS.CSharp.Common.Utilities
 		/// <param name="source">The <typeparamref name="T"/> to get the actual type of.</param>
 		/// <returns>The actual type of the <paramref name="source"/>.</returns>
 		[CanBeNull]
-		public static Type GetActualType<T>(T source)
+		public static Type GetActualType<T>([CanBeNull] T source)
 		{
+			if (source == null)
+			{
+				return null;
+			}
+
 			Type type = typeof(T);
 
 			if (Nullable.GetUnderlyingType(type) != null)
